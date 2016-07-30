@@ -19,7 +19,6 @@ public class FacebookLogin {
 	
 	public static void facebookLogin() throws Exception{
 		String email = "edureka@gmail.com";
-		
 		selenium.type("id=email", ""); // making username text box empty
 		selenium.type("id=email", email);//entering username
 		selenium.type("id=pass", ""); // making password text box empty

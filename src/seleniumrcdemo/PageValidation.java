@@ -75,7 +75,6 @@ public class PageValidation {
 		//validating for contact us text
 				Assert.assertTrue(selenium.getText(contactLink).equals("Contact")); 
 		selenium.close();
-						
 	}
 
 }
