@@ -1,0 +1,9 @@
+steps to get Server side logs 
+=============================================
+download selenium-server 2.44 jar file
+add to the biuld path of your project
+
+start the selenium server logs 
+go to command prompt navgate to selenium-server jar location
+type java -jat selenium-server-standalone-2.44.0 - log <filename>
+it will store all server side logs in that file 
